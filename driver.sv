@@ -2,7 +2,6 @@ class apb_driver extends uvm_driver #(apb_sequence_item);
   `uvm_component_utils(apb_driver)
   apb_sequence_item base_pkt;
   virtual apb_interface intf;
-  //int i;
   
   function new(string name = "apb_driver", uvm_component parent=null);
   super.new(name, parent);
