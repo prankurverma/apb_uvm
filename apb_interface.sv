@@ -1,4 +1,4 @@
-interface apb_interface (input logic pclk,  input logic preset );
+interface apb_interface ( input logic pclk,  input logic preset );
 
   logic                                   p_enable;
   logic                                   p_write;
@@ -10,5 +10,3 @@ interface apb_interface (input logic pclk,  input logic preset );
   logic    [N-1:0]                        p_slverr;
 
 endinterface
-
-//FLOWER by Jisoo
